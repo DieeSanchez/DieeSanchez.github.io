@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Front End</title>
+    <link rel="stylesheet" href="./data/style.css">
+</head>
+<body>
+    <dialog id="modalDatos">
+        <br>
+        <h3 id="modalTitulo">DATOS PERSONALES</h3>
+        <br>
+        <div id="imgModal"><img src="./data/IMGDatos.png" alt=""></div>
+        <br>
+        <ul>
+            <li class="pModal">
+                Nombre y apellido: Diego M. Sanchez
+            </li>
+            <li class="pModal">
+                Localidad: Santa Fe - Capital
+            </li>
+            <li class="pModal">
+                Correo electronico: xxxxx@xxxx.com
+            </li>
+            <li class="pModal">
+                Direccion: 1234 xxxxxx
+            </li>
+            <li class="pModal">
+                Telefono: xxxxxxxxxx
+            </li>
+            <li class="pModal">
+                Descripcion:
+            </li>
+            <p class="pModal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia voluptates, ex nam ullam perferendis dolor facilis eveniet dolores repellat vel consequuntur veritatis quibusdam inventore, corporis deleniti odio, obcaecati quos eaque nisi cum! </p>
+        </ul><br>
+        <br>
+        <div id="btnModal"><button id="cerrarModal">Cerrar</button></div>
+    </dialog>
+
+    <dialog id="modalOtrosDatos">
+        <br>
+        <h3 id="modalTitulo">OTROS DATOS:</h3>
+        <br>
+        <div id="imgModal"><img src="./data/IMGDatos.png" alt=""></div>
+        <br>
+            <h4 class="pModal">
+                Estudios secundarios: Bachiller en Cs Naturales.
+            </h4>
+            <h4 class="pModal">
+                Otros estudios superiores: Estudie Cs Economicas en la UNL (Carrera incompleta).
+            </h4>
+            <h4 class="pModal">
+                •TANGO GESTION
+            </h4>
+            <p class="pModalD">
+            Cursos Puesta en marcha y Operatoria completos y exámenes
+            aprobados en Tango University, con Certificación oficial de
+            Tango Software.
+            </p>
+            <h4 class="pModal">
+                •FCE - UNL
+            </h4>
+            <p class="pModalD">
+                Charla de monotributo e ingresos brutos
+            </p>
+            <p class="pModalD">
+                Taller de oratoria.
+            </p>
+            <p class="pModalD">
+                Jornadas de marketing y emprendedurismo.
+            </p>
+            <p class="pModal">
+                •IDIOMAS: Ingles nivel A2.
+            </p>
+            <div id="btnModalDatos"><button id="cerrarModalDatos">Cerrar</button></div>
+    </dialog>
+
+    <div class="top">CV Front End <div><button class="topBoton2"><span>Desactivar</span></button><button class="topBoton"><span>Activar</span></button>Modo Oscuro</div></div>
+    
+    <div class="container">
+    <header class="subContainerTop">
+        <h2 class="infoBanner">DIEGO SANCHEZ</h2>
+        <h2 class="infoBanner">SOFTWARE DEVELOPER</h2>
+        <img id="banner" src="./data/Banner8.png" alt="">
+    </header>
+    <nav class="subContainerMenu">
+        <div id="nameMenu">MENU </div>
+        <button class="boton" id="btnDatos"><span>Datos Personales</span></button>
+        <button class="boton" id="btnGit"><span>Proyectos</span></button>
+        <button class="boton" id="btnLinkedin"><span>Linkedin</span></button>
+        <button class="boton" id="btnOtrosDatos"><span>Otros datos</span></button>
+        <div id="subFooter">&lt;/&gt;</div>
+        <div id="footer">Curriculum Vitae </div>
+    </nav>
+
+
+
+    <div class="subContainerContenido">
+        <h2 class=""></h2>
+        <div class="primerContenido">
+            <h2 class="titulosContenido" id="academicos">Datos academicos:</h2><br>
+            <br>
+            <h3>•Estudios superiores: Tecnicatura superior en desarrollo de software (3 años - 2720hs catedras)<br><br></h4>
+
+            Cursos:<br><br>
+            •Argentina programa <br>
+            Curso del plan Argentina programa, #SéProgramar completo y
+            examen final aprobado.<br>
+            Curso del plan Argentina programa, #YoProgramo completado<br><br>
+
+            •Universidad del Rosario<br>
+            Curso de Redes de computadores.<br><br>
+
+            •Google activate<br>
+            Curso de Ciberseguridad en el tele-trabajo<br>
+            Curso de Desarrollo de Apps Móviles
+        </div>
+
+        <div class="segundoContenido">
+            <h2 class="titulosContenido" id="tecnicas">Aptitudes tecnicas:</h2>
+            <div id="contImg">
+                <img id="html" src="./data/HTML.png" alt="">
+                <img class="gralIco" src="./data/CSS.png" alt="">
+                <img class="gralIco" src="./data/JS.png" alt="">
+                <img class="gralIco" src="./data/PHP.png" alt="">
+                <img class="gralIco" src="./data/JAVA.png" alt="">
+                <img class="gralIco" src="./data/CPP.png" alt="">
+                <img class="gralIco" src="./data/SQL.png" alt="">
+            </div>
+        </div>
+    </div>
+    <footer class="end"></footer>
+    </div>
+
+    <script src="./data/app.js"></script>
+</body>
+</html>
